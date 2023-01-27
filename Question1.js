@@ -11,8 +11,11 @@ function arraySum(input){
         }
         newArray[i] = sum;
     }
-    return newArray;
+
+    return newArray
 }
 
 arr = [1,2,3,4,5];
+arr2 = [3,2,1];
 console.log(arraySum(arr));
+console.log(arraySum(arr2));
