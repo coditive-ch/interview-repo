@@ -11,6 +11,7 @@ function arraySum(input){
         }
         newArray[i] = sum;
     }
+    return newArray;
 }
 
 arr = [1,2,3,4,5];
